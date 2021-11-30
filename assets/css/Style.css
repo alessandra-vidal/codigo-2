@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css2?family=Courgette&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap);
+
+.all{
+    border-radius: 10px;
+    border: 4px solid darkblue;
+    box-shadow: 0 5px 10px white;
+    background-color: rgba(255, 255, 255, 0.664);
+    margin: 30px auto;
+    margin-top: 5%; 
+    margin-bottom: 2%;
+    height: 470px;
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;}
+
+.todo{
+    border-radius: 10px;
+    border: 4px solid darkblue;
+    box-shadow: 0 5px 10px white;
+    background-color: rgba(255, 255, 255, 0.664);
+    margin: 30px auto;
+    margin-top: 3%; 
+    height: 500px;
+    width: 70%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;}
+
+body{
+    background-image: url(https://www.discordianos.com/uploads/monthly_2021_03/fondo.png.133b928b109ead3a8ba185158bb14fc7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 17px;
+    text-align: center;}
+
+p{text-align: left;}
+
+.caja1{
+    font-family: 'Courgette', cursive;
+    border: 2px groove rgb(85, 100, 238);
+    border-radius: 10px;
+    padding-bottom: 6%;
+    padding-right: 8%;
+    padding-left: 8%;
+    margin-bottom: 2%;
+    width: 570px;
+    height: 100px;}
+
+pre{
+    align-items: center;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    border: 2px groove rgb(85, 100, 238);
+    border-radius: 10px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    padding-left: 7%;
+    margin-left: 10%;
+    width: 600px;}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: rgb(196, 64, 196);}
+
+.todo2{
+    display: flex;
+    justify-content: space-between;}
+
+.button{
+    text-decoration: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(255, 0, 255, 0.541);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px white;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    margin-top: 1%;
+    width: 500px;}    
+
+.button:hover{
+    background-color: rgb(201, 20, 201);}
+
+.button1{
+    text-decoration: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(255, 0, 255, 0.541);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px white;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    padding-left: 3%;
+    margin-top: 2%;
+    margin-left: 40%;
+    text-align: center;
+    width: 100px;}  
+
+.button1:hover{
+    background-color: rgb(201, 20, 201);}
+
+.regresar{
+    text-decoration: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgba(255, 0, 255, 0.541);
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px white;
+    color: white;
+    font-size: 16px;
+    padding: 10px 25px;
+    padding-left: 3%;
+    margin-top: 3%;
+    margin-left: 23%;
+    text-align: center;
+    width: 450px;}  
+
+.regresar:hover{background-color: rgb(201, 20, 201);}
+
+.ventana{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-items: center;
+    position: fixed;
+    pointer-events: none;
+    transition: .3s ease all;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;}
+
+.show{
+    pointer-events: auto;
+    opacity: 1;}
+
+.cuadro{
+    font-family: 'Courgette', cursive;
+    background-color: white;
+    border: 2px groove rgb(85, 100, 238);
+    border-radius: 10px;
+    padding: 1%;
+    margin-left: 11.5%;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;}
+
+.modal{
+    background-image: url(https://wallpaperbat.com/img/491008-4k-anime-landscape-wallpaper-in-2020-scenery-wallpaper-aesthetic-desktop-wallpaper-desktop-wallpaper-art.jpg);
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    border: 4px solid darkblue;    
+    width: 50%;
+    max-width: 100%;
+    padding: 50px;
+    padding-left: 23px;
+    box-shadow: 0 2px 6px white;
+    text-align: center;
+    margin-left: 22%;}
+
+.modal h1{margin: 0;}
+
+.cuadrointerior{
+    font-family: 'Courgette', cursive;
+    border: 2px groove rgb(85, 100, 238);
+    border-radius: 10px;
+    padding: 1%;
+    width: 700px;
+    height: 100px;
+    margin-top: 20px;}
+
+footer{
+    margin-top: 3;
+    box-shadow: 0 3px 5px white;
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 0.5px;
+    width: 100%;}
+
+.imgDecoracion {
+    padding-top: 5%;
+    width: 200px;
+    height: 230px;}
